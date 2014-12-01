@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wolfsoft.cyberlawitactindia" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Cybercrime"
+            android:label="Cyber Crimes" />
+
+        <activity android:name=".Pornography"
+            android:label="Pornography" />
+
+        <activity android:name=".Datathef"
+            android:label="Data Theft" />
+        <activity android:name=".Dosattack"
+            android:label="DOS Attack" />
+        <activity android:name=".Computerthef"
+            android:label="Computer Hardware Thef" />
+        <activity android:name=".Digitalsignature"
+            android:label="Digital or Electronic Signature Misuse" />
+        <activity android:name=".Piracy"
+            android:label="Copyright Infringement or Piracy" />
+        <activity android:name=".Hacking"
+            android:label="Hacking" />
+        <activity android:name=".Emailabuse"
+            android:label="Email Abuse" />
+        <activity android:name=".Emailspoofing"
+            android:label="Email Spoofing" />
+        <activity android:name=".Emailthreatening"
+            android:label="E-mail Threatening" />
+        <activity android:name=".Datamodification"
+            android:label="Data Modification" />
+        <activity android:name=".Identitytheft"
+            android:label="Identity Theft" />
+        <activity android:name=".Thumb"
+            android:label="Thumb Impression Misuse" />
+        <activity android:name=".Forgery"
+            android:label="Forgery for Cheating" />
+        <activity android:name=".Forgeryrepu"
+            android:label="Forgery for Reputation Harming" />
+        <activity android:name=".Cyberdefamation"
+            android:label="Cyber Defamation" />
+        <activity android:name=".Childpornography"
+            android:label="Child Pornography" />
+        <activity android:name=".Definations"
+            android:label="Cyber Glossary" />
+        <activity android:name=".About"
+            android:label="About IT Act India" />
+
+    </application>
+
+
+</manifest>
